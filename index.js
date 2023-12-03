@@ -8,7 +8,7 @@ let bar = document.querySelector("#NAV .navbar-toggler")
 window.addEventListener('scroll', () => {
     const verticalScrollPx = window.scrollY;
   
-    if (verticalScrollPx >  660.7999877929688) {
+    if (verticalScrollPx >  100.7999877929688) {
       nav.classList.add("bg-body-tertiary")
       nav.style.borderBottom = "none"
       nav.style.boxShadow = "5px 5px 15px 0 rgba(31, 31, 31, 0.07)"
